@@ -76,3 +76,97 @@ sentence[0:6]
 'Suhail'
 sentence[2:6]
 'hail'
+name="Suhail"
+sentence="%s is amazing"
+sentenace%name
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+NameError: name 'sentenace' is not defined. Did you mean: 'sentence'?
+sentence%name
+'Suhail is amazing'
+sentenace%("avi")
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+NameError: name 'sentenace' is not defined. Did you mean: 'sentence'?
+sentence%("avi")
+'avi is amazing'
+sentence="%s %s is amazing"
+sentence%("suhail","memon")
+'suhail memon is amazing'
+sentence="%s %s is amazing and he is %d years old"
+sentence%("suhail","memon",10)
+'suhail memon is amazing and he is 10 years old'
+sentence2=sentence%("suhail","memon",10)
+sentence2
+'suhail memon is amazing and he is 10 years old'
+shoplist=["apples","oranges","bananas"]
+shoplist
+['apples', 'oranges', 'bananas']
+shoplist[0]
+'apples'
+shoplist[1]
+'oranges'
+shoplist[0:1]
+['apples']
+shoplist[0:2]
+['apples', 'oranges']
+shoplist[0:3]
+['apples', 'oranges', 'bananas']
+shoplist[0:10]
+['apples', 'oranges', 'bananas']
+shoplist.append("cherries")
+shoplist
+['apples', 'oranges', 'bananas', 'cherries']
+shoplist[1]="blueberries"
+shoplist
+['apples', 'blueberries', 'bananas', 'cherries']
+del shoplist[1]
+shoplist
+['apples', 'bananas', 'cherries']
+len(shoplist)
+3
+shoplist2=["bread","jam","pb"]
+shoplist3=shoplist+shoplist2
+shoplist3
+['apples', 'bananas', 'cherries', 'bread', 'jam', 'pb']
+shoplist*2
+['apples', 'bananas', 'cherries', 'apples', 'bananas', 'cherries']
+shoplist-shoplist2
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'list' and 'list'
+shoplist3
+['apples', 'bananas', 'cherries', 'bread', 'jam', 'pb']
+listnum=[1,4,5,6]
+min(listnum)
+1
+max(listnum)
+6
+average(listnum)
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+NameError: name 'average' is not defined
+avg(listnum)
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+NameError: name 'avg' is not defined
+median(listnum)
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 1, in <module>
+NameError: name 'median' is not defined
+max(listnum)
+6
+listnum
+[1, 4, 5, 6]
