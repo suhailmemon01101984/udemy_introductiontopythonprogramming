@@ -1,0 +1,78 @@
+"/Users/suhailmemon/Documents/MACBOOKPRO/dell laptop/Desktop/git/udemy_introductiontopythonprogramming/HelloWorld/venv/bin/python" /Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py --mode=client --host=127.0.0.1 --port=55769 
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/Users/suhailmemon/Documents/MACBOOKPRO/dell laptop/Desktop/git/udemy_introductiontopythonprogramming/HelloWorld'])
+PyDev console: starting.
+Python 3.10.8 (main, Oct 13 2022, 10:17:43) [Clang 14.0.0 (clang-1400.0.29.102)] on darwin
+age=20
+age
+20
+sentence="May name is Avi"
+sentence
+'May name is Avi'
+sarah,bob,mike=16,21,17
+sarah
+16
+bob
+21
+mike
+17
+sarah=bob=mike=17
+sarah
+17
+bob
+17
+mike
+17
+age,name=20,"Suhail"
+age
+20
+name
+'Suhail'
+age,name=24,"my name is suhail"
+age
+24
+name
+'my name is suhail'
+age1,age2=12,18
+age1*age2
+216
+age1+age2
+30
+age1%age2
+12
+age2%age1
+6
+age1/age2
+0.6666666666666666
+firstname,lastname='Suhail','Memon'
+firstname
+'Suhail'
+lastname
+'Memon'
+firstname+lastname
+'SuhailMemon'
+10*(firstname+lastname)
+'SuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemon'
+10*(firstname+''+lastname)
+'SuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemonSuhailMemon'
+10*(firstname+' '+lastname)
+'Suhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail MemonSuhail Memon'
+10*(' '+firstname+' '+lastname)
+' Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon'
+10*(firstname+' '+lastname+' ')
+'Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon '
+10*(' '+firstname+' '+lastname)
+' Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon'
+10*(' '+firstname+' '+lastname)
+' Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon Suhail Memon'
+sentence="Suhail is playing basketball"
+sentence[0]
+'S'
+sentence[:6]
+'Suhail'
+sentence[:-3]
+'Suhail is playing basketb'
+sentence[0:6]
+'Suhail'
+sentence[2:6]
+'hail'
