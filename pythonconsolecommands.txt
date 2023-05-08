@@ -370,4 +370,81 @@ while c<5:
 1
 2
 4
+
+
+try:
+    if c>5:
+        print("you are in the try block")
+except:
+    print("you are in the except block")
+try:
+    if blabla>5:
+        print("you are in the try block")
+except:
+    print("you are in the except block")
+you are in the except block
+#this is a comment
+"""
+dfhldjhfsljflsdf
+lshdfldshjfslfs
+"""
+'\ndfhldjhfsljflsdf\nlshdfldshjfslfs\n'
+class person:
+    def getname(self):
+        print("suhail")
+    def getage(self):
+        print(39)
+p=person()
+p.getage()
+39
+p.getname()
+suhail
+print(__name__)
+__main__
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def getname(self):
+        print(self.name)
+    def getage(self):
+        print(self.age)
+p=person("suhail",38)
+p.getname()
+suhail
+p.getage()
+38
+class parent:
+    def __init__(self):
+        print("you are in the parent init")
+    def parentfunc(self):
+        print("you are in parentfunc")
+p=parent()
+you are in the parent init
+p.parentfunc()
+you are in parentfunc
+class child(parent):
+    def __init__(self):
+        print("you are in child init")
+    def childfunc(self):
+        print("you are in childfunc")
+c=child()
+you are in child init
+c.childfunc()
+you are in childfunc
+c.parentfunc()
+you are in parentfunc
+class child(parent):
+    def __init__(self):
+        print("you are in child init")
+    def childfunc(self):
+        print("you are in childfunc")
+    def parentfunc(self):
+        print("you are in parentfunc of child since it has been overridden")
+c=child()
+you are in child init
+c.childfunc()
+you are in childfunc
+c.parentfunc()
+you are in parentfunc of child since it has been overridden
 5
