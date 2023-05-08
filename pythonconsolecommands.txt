@@ -258,3 +258,103 @@ TypeError: 'tuple' object doesn't support item deletion
 tup1
 ('suhail', 'nabu', 'zaffu')
 
+
+if(5>2):
+    print("true")
+true
+if(5>2):
+    print("true")
+else:
+    print("false")
+true
+if(2>5):
+    print("true")
+else:
+    print("false")
+false
+2>5
+False
+5>2
+True
+2>=5
+False
+3==3
+True
+3!=4
+True
+age=16
+if(age<=9):
+    printf("you are not teen")
+elif(age>9 and age<=14):
+    printf("you are teen")
+elif(age>14 and age<=21):
+    printf("you are adult")
+else:
+    printf("you are old bro")
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py", line 364, in runcode
+    coro = func()
+  File "<input>", line 6, in <module>
+NameError: name 'printf' is not defined. Did you mean: 'print'?
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are adult
+age=5
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are not teen
+age=12
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are teen
+age=20
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are adult
+age=12
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are teen
+age=90
+if(age<=9):
+    print("you are not teen")
+elif(age>9 and age<=14):
+    print("you are teen")
+elif(age>14 and age<=21):
+    print("you are adult")
+else:
+    print("you are old bro")
+you are old bro
+
+
+
